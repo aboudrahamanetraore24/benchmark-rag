@@ -1,0 +1,41 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+/build/
+
+# Data (volumineuse / générée)
+data/raw/
+data/baseline_index/
+data/raptor_index/
+data/lightrag_index/
+data/hybrid_index/
+data/chunks/
+data/extracted/
+data/evaluation.html
+data/results.jsonl
+data/results.md
+
+# Médias générés
+benchmark_rag.png
+
+# Logs
+*.log
+lightrag.log
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Office temp files
+~$*
+
+# Jupyter
+.ipynb_checkpoints/
